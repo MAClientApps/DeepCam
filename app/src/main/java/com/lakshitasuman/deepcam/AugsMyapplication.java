@@ -19,7 +19,7 @@ public class AugsMyapplication extends AdsApplication {
     public void onCreate() {
         super.onCreate();
 
-        mobConfig = new MobConfig(this, "1221vbq99ksg");
+        mobConfig = new MobConfig(this, "1221vbq99ksg","wkfo2r");
         Mob.onCreate(mobConfig);
         registerActivityLifecycleCallbacks(new MobLifecycleCallbacks());
 
